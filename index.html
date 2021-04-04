@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Konstrukt</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="css/icon.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body>
+    <header id="header">
+        <div class="header__logo">
+            <a href="#header"><img src="img/projeco-logo.png" alt="Konstrukt"></a>
+        </div>
+        <div class="header__info">
+            <h1>PARTNER WITH KONSTUCT</h1>
+            <span>An award-winning construction management firm</span>
+        </div>
+        <div class="header__scroll">
+            <a href="#main">SCROLL DOWN</a>
+        </div>
+    </header>
+    <main id="main">
+        <div class="container__menu">
+            <div class="logo">
+                <a href="#header"><img src="img/projeco-logo-black.png" alt="Konstrukt"></a>
+            </div>
+            <div class="navBurger" role="navigation" id="navToggle">
+                <span></span>
+            </div>
+            <nav class="menu__body"> 
+                <ul class="menu__list">
+                    <li class="menu__link"><a href="#header">HOME</a> </li>
+                    <li class="menu__link"><a href="#about">ABOUT</a></li>
+                    <li class="menu__link"><a href="#services">SERVICES</a></li>
+                    <li class="menu__link"><a href="#work">WORK</a></li>
+                    <li class="menu__link"><a href="#footer">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div> 
+        <section class="story" id="about">
+            <div class="container">
+                <div class="story__title">OUR STORY</div>
+                <div class="story__content">
+                    <div class="story__description" data-aos="fade-right"
+                    data-aos-duration="1000">
+                        Founded in 2011 by John Mathew Smith, <span>Konstruct</span>  has become the number one construction management firm
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                    </div>
+                    <div class="story__images" data-aos="fade-up"
+                    data-aos-duration="1000">
+                        <div class="story__images-img">
+                            <div class="story__images-img__name">WE <br>
+                                PLAN</div>
+                        </div>
+                        <div class="story__images-img">
+                            <div class="story__images-img__name">WE <br>
+                                MANAGE</div>
+                        </div>
+                        <div class="story__images-img">
+                            <div class="story__images-img__name">WE <br>
+                                BUILD</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a href="#header" id="button-top"></a>
+        </section>
+       <section class="capabilities" id="services">
+            <div class="container">
+                <div class="capabilities__description">
+                    <div class="capabilities__description-name">OUR CAPABILITIES</div>
+                    <div class="capabilities-info">
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam <br> nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+                        <a href="#" class="capabilities__btn">
+                            ALL SERVICES
+                        </a>
+                    </div>
+                    
+                </div>
+                <div class="capabilities__items">
+                    <div class="capabilities__item" data-aos="fade-up-right" data-aos-duration="700">
+                        <img src="img/capabilities__item-img1.png" alt="" class="capabilities__item-img">
+                        <div class="capabilities__item-title">PROJECT AND CONSTRUCTION MANAGEMENT</div>
+                        <div class="capabilities__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                    </div>
+                    <div class="capabilities__item" data-aos="zoom-in-up" data-aos-duration="700">
+                        <img src="img/Bitmap.png" alt="" class="capabilities__item-img">
+                        <div class="capabilities__item-title">STRUCTURE AUDIT AND MAINTENANCE</div>
+                        <div class="capabilities__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                    </div>
+                    <div class="capabilities__item" data-aos="fade-up-left" data-aos-duration="700">
+                        <img src="img/capabilities__item-img3.png" alt="" class="capabilities__item-img">
+                        <div class="capabilities__item-title">FACTORY CONSTRUCTION AND MODELING</div>
+                        <div class="capabilities__item-text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="work">
+            <div class="contacts__wrapper">
+                <div class="contacts__question" data-aos="zoom-in">Want to build <br> something amazing?</div>
+                <div class="contacts__btn">
+                    <a href="#">GET IN TOUCH</a>
+                </div>
+            </div>
+            <div class="contacts__signup"> <span>Newsletter Signup</span> 
+                <div class="contacts__form">
+                    <form method="post" action="" id="formMain">
+                        <input id="email" type="email" name="email" required placeholder="test@youremail.com" maxlength="30" autocomplete="off"  value />
+                        <input class="signup-btn"  type="submit"  value="SIGNUP">
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main> 
+    <footer class="footer" id="footer">
+        <div class="footer__info">
+            <div class="footer__info-company">
+                <span>COMPANY</span>
+                <img src="img/projeco-logo.png" alt="Konstrukt">
+                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat.</p>
+            </div>
+            <div class="footer__info-links">
+                <nav class="footer__menu">
+                    <ul>LINKS
+                        <li><a href="#">HOME</a></li>
+                        <li><a href="#">ABOUT</a></li>
+                        <li><a href="#">SERVICES</a></li>
+                        <li><a href="#">PROJECTS</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer__menu">
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">TERMS</a></li>
+                        <li><a href="#">CAREERS</a></li>
+                    </ul>
+                </nav>
+                <nav class="footer__menu">
+                    <ul>
+                        <li><a href="#">BLOG</a></li>
+                        <li><a href="#">PARTNERS</a></li>
+                        <li><a href="#">NEWS</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="footer__info-contacts">
+                <span>CONTACT US</span>  <br><br>
+                213 Baker Street <br>
+                Oriel City Kounty <br>
+                7000 KNW, <br>
+                Country Name
+                <br><br>
+                <a href="tel: +239942334022"> +23 994 233 4022</a><br> 
+                <a href="mail: info@konstruct.com">info@konstruct.com</a> 
+            </div>
+            <div class="footer__info-socials">
+                <ul>
+                  <li class="facebook"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+                  <li class="twitter"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                  <li class="google"><a href="#"><i class="fa fa-google" aria-hidden="true"></i></a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="footer__privacy">
+            © 2021 Konstruct Inc. Designed by Jane Kathryn Teo
+        </div>
+    </footer>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
